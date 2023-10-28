@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/* header */
+header{
+    width: 100%;
+    height: 600px;
+    color: #ffff;
+    background-image: url("../assets/headphone.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    
+
+}
+nav{
+display: flex;
+justify-content: space-between;
+padding: 10px 10px;
+align-items: center;
+}
+.logo{
+    color: rgb(227, 241, 17);
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin-right: 25px;
+}
+.primary-btn{
+background-color: rgb(33, 33, 240);
+color: #ffff;
+padding: 10px;
+border: none;
+border-radius: 5px;
+}
+.banner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-article{
+text-align: center;
+}
+.banner-article h2{
+font-size: 70px;
+}
+
+/* reviwe section */
+.reviwe{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.reviwe-header{
+    margin-bottom: 20px;
+   font-size: 70px;
+   color: rgb(67, 67, 228);
+}
